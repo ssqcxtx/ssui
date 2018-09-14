@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="main">
   </div>
 </template>
 
@@ -7,7 +7,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component
-export default class HelloWorld extends Vue {
+export default class main extends Vue {
 }
 </script>
 

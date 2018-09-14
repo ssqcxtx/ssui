@@ -1,14 +1,15 @@
 <template>
-  <div class="hello">
+  <div class="login">
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 
-@Component
-export default class HelloWorld extends Vue {
-}
+@Component({
+  components: {},
+})
+export default class Login extends Vue {}
 </script>
 
 <style scoped lang="scss">
